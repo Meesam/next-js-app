@@ -1,9 +1,9 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { ChartNoAxesGantt, PenBox } from "lucide-react";
+import { PenBox } from "lucide-react";
 import UserMenu from "./user-menu";
 
 const Header = () => {
